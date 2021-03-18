@@ -11,4 +11,5 @@ namespace WebApplicationFootballTeams.Models
         public string ByLine { get; set; }
         public string Content { get; set; }
     }
+  
 }
