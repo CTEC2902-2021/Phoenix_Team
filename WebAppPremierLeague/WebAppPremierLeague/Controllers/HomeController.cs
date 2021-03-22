@@ -20,13 +20,16 @@ namespace WebAppPremierLeague.Controllers
             };
 
             return View(league);
-        }        public ActionResult Teams()
+        }
+
+        public ActionResult Teams()
         {
             ViewBag.Message = "Your premier league teams page.";
 
 
             return View();              
-        }
+        }
+
         public ActionResult ManCity()
         {
             ViewBag.Message = "Manchester City team page.";
