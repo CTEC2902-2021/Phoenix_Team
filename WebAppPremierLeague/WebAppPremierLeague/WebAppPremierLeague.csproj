@@ -104,6 +104,17 @@
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Teams.cshtml" />
+    <Content Include="Views\Home\ManCity.cshtml" />
+    <Content Include="Views\Home\ManUnited.cshtml" />
+    <Content Include="Views\Home\LeicesterCity.cshtml" />
+    <Content Include="Views\Home\Chelsea.cshtml" />
+    <Content Include="Views\Home\WestHam.cshtml" />
+    <Content Include="Views\Home\Tottenham.cshtml" />
+    <Content Include="Views\Home\Liverpool.cshtml" />
+    <Content Include="Views\Home\Everton.cshtml" />
+    <Content Include="Views\Home\Arsenal.cshtml" />
+    <Content Include="Views\Home\AstonVilla.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
