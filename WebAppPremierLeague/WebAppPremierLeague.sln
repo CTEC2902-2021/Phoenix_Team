@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1401
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppPremierLeague", "WebAppPremierLeague\WebAppPremierLeague.csproj", "{F6A802F2-1004-4A38-BA3D-625BA086715A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppPremierLeagueTesting", "WebAppPremierLeagueTesting\WebAppPremierLeagueTesting.csproj", "{35E852FC-FB7A-463E-9F49-0D1FBD1D7040}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F6A802F2-1004-4A38-BA3D-625BA086715A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6A802F2-1004-4A38-BA3D-625BA086715A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6A802F2-1004-4A38-BA3D-625BA086715A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E852FC-FB7A-463E-9F49-0D1FBD1D7040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E852FC-FB7A-463E-9F49-0D1FBD1D7040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E852FC-FB7A-463E-9F49-0D1FBD1D7040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E852FC-FB7A-463E-9F49-0D1FBD1D7040}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
