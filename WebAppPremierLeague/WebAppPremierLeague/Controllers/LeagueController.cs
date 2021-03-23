@@ -19,6 +19,7 @@ namespace WebAppPremierLeague.Controllers
         public string Team(int id)
         {
             return "Team: Id = " + id.ToString();
-        }
+        }
+
     }
 }
