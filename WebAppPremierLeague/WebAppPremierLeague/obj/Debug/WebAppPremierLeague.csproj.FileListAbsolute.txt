@@ -136,3 +136,7 @@ C:\Users\Dexter\Desktop\New folder\WebAppPremierLeague\WebAppPremierLeague\obj\D
 C:\Users\Dexter\Desktop\New folder\WebAppPremierLeague\WebAppPremierLeague\obj\Debug\WebAppPremierLeague.csproj.CopyComplete
 C:\Users\Dexter\Desktop\New folder\WebAppPremierLeague\WebAppPremierLeague\obj\Debug\WebAppPremierLeague.dll
 C:\Users\Dexter\Desktop\New folder\WebAppPremierLeague\WebAppPremierLeague\obj\Debug\WebAppPremierLeague.pdb
+C:\Users\Dexter\Desktop\New folder\WebAppPremierLeague\WebAppPremierLeague\bin\EntityFramework.dll
+C:\Users\Dexter\Desktop\New folder\WebAppPremierLeague\WebAppPremierLeague\bin\EntityFramework.SqlServer.dll
+C:\Users\Dexter\Desktop\New folder\WebAppPremierLeague\WebAppPremierLeague\bin\EntityFramework.xml
+C:\Users\Dexter\Desktop\New folder\WebAppPremierLeague\WebAppPremierLeague\bin\EntityFramework.SqlServer.xml

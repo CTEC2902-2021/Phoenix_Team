@@ -9,13 +9,17 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+    <title>@ViewBag.Title</title>
 </head>
 <body>
-    <div> 
-        <h1>@Model.Title</h1>
+    <div>
+        <h1>@ViewBag.Title</h1>
 
-        <p>@Model.SubTitle</p>
+        <h2>@ViewBag.CurrentTime</h2>
+
+        <h2>@ViewData["CurrentTime"]</h2>
+
+        <p>@ViewBag.WelcomeMessage</p>
     </div>
 </body>
 </html>

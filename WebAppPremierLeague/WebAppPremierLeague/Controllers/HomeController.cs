@@ -12,14 +12,21 @@ namespace WebAppPremierLeague.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            LeagueModel league = new LeagueModel()
-            {
-                Title = "The Premier League",
-                SubTitle = " For all the latest Premier League news.",
+            ViewBag.Title = "The Premier League";
+            ViewBag.WelcomeMessage = "For all the latest Premier League news.";
+            ViewData["CurrentTime"] = DateTime.Now;
+            return View();
 
-            };
 
-            return View(league);
+
+            //LeagueModel league = new LeagueModel()
+            //{
+            //   Title = "The Premier League",
+            //  SubTitle = " For all the latest Premier League news.",
+
+            //};
+
+            // return View(league);
         }
 
         public ActionResult Teams()
@@ -29,6 +36,8 @@ namespace WebAppPremierLeague.Controllers
 
             return View();              
         }
+
+        
 
         public ActionResult ManCity()
         {

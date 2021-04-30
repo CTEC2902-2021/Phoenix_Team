@@ -107,6 +107,7 @@
     <Compile Include="Models\LeagueModel.cs" />
     <Compile Include="Models\clsPlayers.cs" />
     <Compile Include="Models\clsTeams.cs" />
+    <Compile Include="Models\TeamsModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -134,6 +135,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\TeamsModel\" />
     <Folder Include="Views\Team\" />
   </ItemGroup>
   <PropertyGroup>

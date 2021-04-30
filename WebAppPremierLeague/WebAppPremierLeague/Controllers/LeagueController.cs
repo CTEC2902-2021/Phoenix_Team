@@ -13,6 +13,7 @@ namespace WebAppPremierLeague.Controllers
         {
             ViewBag.Title = "The Premier League";
             ViewBag.WelcomeMessage = "For all the latest Premier League news.";
+            ViewData["CurrentTime"] = DateTime.Now;
             return View();
         }
 
