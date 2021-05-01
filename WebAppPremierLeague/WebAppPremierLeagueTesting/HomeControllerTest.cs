@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-//using System.Web.Mvc;
-//using WebAppPremierLeague.Models;
+using WebAppPremierLeague.Controllers;
+
 
 namespace WebAppPremierLeagueTesting
 {
@@ -9,13 +9,18 @@ namespace WebAppPremierLeagueTesting
     public class HomeControllerTest
     {
         [TestMethod]
-        public void About()
+        public void Index()
         {
             //arrange
-            
+
+            HomeController controller = new HomeController();
+
             //act
 
+            ViewResult result = controller.Index() as ViewResult;
+
             //assert
+            Assert.AreEqual("Your application description page.", result.ViewBag.Message);
         }
     }
 }
