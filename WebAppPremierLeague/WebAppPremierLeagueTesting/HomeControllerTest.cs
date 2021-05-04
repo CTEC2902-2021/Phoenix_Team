@@ -52,5 +52,25 @@ namespace WebAppPremierLeagueTesting
             //assert
             Assert.AreEqual("This teams has loads of wins", result.ViewBag.Subtitle);
         }
+
+        
+
+        [TestMethod]
+        public void TeamislookingformoreWins()
+        {
+            //arrange
+            HomeController model = new HomeController();
+            model.TeamName = "Test Name 1";
+            model.TeamManager = "Team Manager 1";
+            model.Wins = 6;
+
+            LeagueController controller = new LeagueController(model);
+
+            //act
+            ViewResult result = controller.Index();
+
+            //assert
+            Assert.AreEqual("This teams is looking for more wins", result.ViewBag.Subtitle);
+        }
     }
 }
