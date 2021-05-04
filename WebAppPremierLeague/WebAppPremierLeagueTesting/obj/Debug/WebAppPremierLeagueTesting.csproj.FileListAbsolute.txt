@@ -26,3 +26,6 @@ C:\Users\Dexter\Desktop\New folder\WebAppPremierLeague\WebAppPremierLeagueTestin
 C:\Users\Dexter\Desktop\New folder\WebAppPremierLeague\WebAppPremierLeagueTesting\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\Dexter\Desktop\New folder\WebAppPremierLeague\WebAppPremierLeagueTesting\bin\Debug\System.Web.Razor.xml
 C:\Users\Dexter\Desktop\New folder\WebAppPremierLeague\WebAppPremierLeagueTesting\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Dexter\Desktop\New folder\WebAppPremierLeague\WebAppPremierLeagueTesting\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\Dexter\Desktop\New folder\WebAppPremierLeague\WebAppPremierLeagueTesting\bin\Debug\System.Web.Helpers.dll
+C:\Users\Dexter\Desktop\New folder\WebAppPremierLeague\WebAppPremierLeagueTesting\bin\Debug\System.Web.Helpers.xml

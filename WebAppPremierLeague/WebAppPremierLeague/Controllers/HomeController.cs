@@ -10,7 +10,7 @@ namespace WebAppPremierLeague.Controllers
     public class HomeController : Controller
     {
         // GET: Home
-        public ActionResult Index()
+        public ViewResult Index()
         {
             ViewBag.Title = "The Premier League";
             ViewBag.WelcomeMessage = "For all the latest Premier League news.";
@@ -29,12 +29,23 @@ namespace WebAppPremierLeague.Controllers
             // return View(league);
         }
 
-        public ActionResult Teams()
+        public ViewResult Teams()
         {
-            ViewBag.Message = "Your premier league teams page.";
+            TeamsModel teamsmodel = new TeamsModel();
+            teamsmodel.TeamName = "Man City";
+            teamsmodel.TeamManager = "Steve Smith";
+            teamsmodel.Wins = 10;
 
+            if(teamsmodel.Wins > 8)
+            {
+                ViewBag.Subtitle = "This teams has loads of wins";
+            }
+            else
+            {
+                ViewBag.Subtitle = "This teams is looking for more wins";
+            }
 
-            return View();              
+            return View(teamsmodel);
         }
 
         
