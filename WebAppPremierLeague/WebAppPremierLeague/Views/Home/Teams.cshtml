@@ -1,4 +1,4 @@
-﻿@model WebAppPremierLeague.Models.LeagueModel
+﻿@model WebAppPremierLeague.Models.TeamsModel
 
 @{
     Layout = null;
@@ -13,6 +13,15 @@
 </head>
 <body>
     <div> 
+
+        <h1>@Model.TeamName</h1>
+
+        <h2>@ViewBag.Subtitle</h2>
+
+        <p><strong>Wins:</strong> @Model.Wins</p>
+
+        <p>@Model.TeamManager</p>
+
     </div>
 </body>
 </html>

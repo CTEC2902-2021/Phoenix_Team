@@ -8,6 +8,8 @@ namespace WebAppPremierLeague.Models
 {
     public class TeamsModel : Controller
     {
+        public string Title { get; set; }
+        public string SubTitle { get; set; }
 
         public int TeamNo { get; set; }
         public string TeamName { get; set; }
