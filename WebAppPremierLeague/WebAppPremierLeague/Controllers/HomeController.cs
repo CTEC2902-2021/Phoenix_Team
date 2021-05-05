@@ -5,10 +5,34 @@ using System.Web;
 using System.Web.Mvc;
 using WebAppPremierLeague.Models;
 
+
+
 namespace WebAppPremierLeague.Controllers
 {
     public class HomeController : Controller
     {
+        private List<clsTeams> _Teams = new List<clsTeams>
+        {
+            new clsTeams
+            {
+                TeamNo = 1,
+                TeamManager = "Steve Smith",
+                Wins = 7 },
+
+            new clsTeams
+            {
+                TeamNo = 2,
+                TeamManager = "Jeff",
+                Wins = 12 },
+            new clsTeams
+            {
+                TeamNo = 3,
+                TeamManager = "Jon",
+                Wins = 15 }
+
+        };
+            
+        
         public string Title { get; set; }
         public string SubTitle { get; set; }
 
@@ -144,6 +168,8 @@ namespace WebAppPremierLeague.Controllers
 
             return View();
         }
+
+        //get details
 
     }
 }
