@@ -11,7 +11,7 @@ namespace WebAppPremierLeague.Controllers
     public class LeagueController : Controller
     {
         private TeamsModel _model;
-        public LeagueController() { }
+        public LeagueController(HomeController model1) { }
         public LeagueController(TeamsModel model)
         {
             _model = model;

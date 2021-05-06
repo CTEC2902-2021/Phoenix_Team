@@ -59,12 +59,12 @@ namespace WebAppPremierLeagueTesting
         public void TeamislookingformoreWins()
         {
             //arrange
-            HomeController model = new HomeController();
-            model.TeamName = "Test Name 1";
-            model.TeamManager = "Team Manager 1";
-            model.Wins = 6;
+            HomeController model1 = new HomeController();
+            model1.TeamName = "Test Name 1";
+            model1.TeamManager = "Team Manager 1";
+            model1.Wins = 6;
 
-            LeagueController controller = new LeagueController(model);
+            LeagueController controller = new LeagueController(model1);
 
             //act
             ViewResult result = controller.Index();
