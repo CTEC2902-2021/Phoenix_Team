@@ -169,7 +169,15 @@ namespace WebAppPremierLeague.Controllers
             return View();
         }
 
-        //get details
+        // GET: Details/id
+        public ActionResult Details(int? id)
+        {
+            if (id == null) return new HttpNotFoundResult();
+            clsTeams selectedTeam = _Teams.First(p => p.TeamNo == id);
+
+            if (selectedTeam == null) return new HttpNotFoundResult();
+            return View(selectedTeam);
+        }
 
     }
 }
