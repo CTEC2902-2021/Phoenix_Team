@@ -42,5 +42,25 @@ namespace WebAppPremierLeague.Models
 
             return View(teamsmodel);
         }
+
+        // GET: TeamsModel
+        public ViewResult Arsenal()
+        {
+            TeamsModel teamsmodel2 = new TeamsModel();
+            teamsmodel2.TeamName = "Arsenal";
+            teamsmodel2.TeamManager = "Steve Smith2";
+            teamsmodel2.Wins = 21;
+
+            if (teamsmodel2.Wins > 20)
+            {
+                ViewBag.Subtitle = "This team has the Most Wins!";
+            }
+            else
+            {
+                ViewBag.Subtitle = "This team is Looking to get more wins";
+            }
+
+            return View(teamsmodel2);
+        }
     }
 }
